@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>lista de Professores</title>
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/nav.css">
     <link rel="stylesheet" href="../styles/asideBar.css">
@@ -35,7 +35,7 @@
                 <li>
                     <a class="submenuHeader">Cursos</a>
                     <ul>
-                        <li><a href="listCourses.html">Listar Cursos</a></li>
+                        <li><a href="listCourses.html">listar Cursos</a></li>
                     </ul>
                 </li>
                 <li>
@@ -47,34 +47,32 @@
                 </li>
             </ul>
         </aside>
-
         <div class="workspace col-8">
-            <h1>Listar Professor</h1>
+            <h1>Tabela de Professores</h1>
             <input type="text" id="searchInput" placeholder="Search...">
             <table>
                 <thead>
                     <tr>
-                        <th>Course Name</th>
-                        <th>Instructor</th>
-                        <th>Duration</th>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Formacao</th>
+                        <th>Email</th>
                     </tr>
                 </thead>
-                <tbody id="tableBody">
+                <tbody  id="tableBody">
                     <tr>
-                        <td>Course 1</td>
-                        <td>Instructor 1</td>
-                        <td>3 months</td>
+                        <td>1</td>
+                        <td>Professor A</td>
+                        <td>Matemática</td>
+                        <td>professorA@example.com</td>
                     </tr>
                     <tr>
-                        <td>Course 2</td>
-                        <td>Instructor 2</td>
-                        <td>6 months</td>
+                        <td>2</td>
+                        <td>Professor B</td>
+                        <td>Português</td>
+                        <td>professorB@example.com</td>
                     </tr>
-                    <tr>
-                        <td>Course 3</td>
-                        <td>Instructor 3</td>
-                        <td>1 year</td>
-                    </tr>
+                    <!-- Adicione mais linhas conforme necessário -->
                 </tbody>
             </table>
         </div>
@@ -82,7 +80,5 @@
     
     <script src="../javascript/aside.js"></script>
     <script src="../javascript/searchTable.js"></script>
-
-    </div>
 </body>
 </html>

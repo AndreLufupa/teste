@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title> Lista de Estudantes</title>
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/nav.css">
     <link rel="stylesheet" href="../styles/asideBar.css">
@@ -49,10 +49,37 @@
         </aside>
 
         <div class="workspace col-8">
-
+            <h1>Tabela de Alunos</h1>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Curso</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody  id="tableBody">
+                    <tr>
+                        <td>1</td>
+                        <td>Aluno A</td>
+                        <td>Engenharia</td>
+                        <td>alunoA@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Aluno B</td>
+                        <td>Medicina</td>
+                        <td>alunoB@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
-    <script src="../javascript/script.js"></script>
+    </div>
+
+
     <script src="../javascript/aside.js"></script>
     <script src="../javascript/searchTable.js"></script>
 </body>
