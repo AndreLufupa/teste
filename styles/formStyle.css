@@ -1,0 +1,37 @@
+:root {
+    --cor-primaria: #4CAF50;
+    --cor-secundaria: #45a049;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: var(--cor-primaria);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--cor-secundaria);
+}

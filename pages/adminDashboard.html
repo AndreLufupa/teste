@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/asideBar.css">
+    <link rel="stylesheet" href="../styles/workspace.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="navbar-logout">
+            <button>Logout</button>
+        </div>
+    </nav>
+
+    <div class="flex-container">
+
+        <aside class="sidebar col-2">
+            <ul>
+                <li><a href="adminDashboard.html">Painel de Controlo</a></li>
+                <li>
+                    <a class="submenuHeader">Usuarios</a>
+                    <ul>
+                        <li><a href="addTeacher.html">Adicionar Professor</a></li>
+                        <li><a href="listTeacher.html">Listar Professores</a></li>
+                        <li><a href="listStudent.html">Listar Alunos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="submenuHeader">Cursos</a>
+                    <ul>
+                        <li><a href="listCourses.html">Listar Cursos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="submenuHeader">Gerar Relatorios</a>
+                    <ul>
+                        <li><a href="#">Relatorio de Usuarios</a></li>
+                        <li><a href="#">Relatorio de cursos </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="workspace col-8">
+        </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/aside.js"></script>
+</body>
+</html>

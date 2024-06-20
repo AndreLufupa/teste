@@ -1,0 +1,33 @@
+.workspace {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.workspace h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.workspace input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.workspace table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.workspace table, .workspace th, .workspace td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.workspace th {
+    background-color: #4CAF50;
+    color: white;
+}
